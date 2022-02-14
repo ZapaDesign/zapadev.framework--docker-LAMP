@@ -17,12 +17,11 @@
     <title>MAIN</title>
 </head>
 <body>
-    <h1>MAIN</h1>
+    <div class="container">
+        <h1>MAIN</h1>
+    </div>
 
-    <?php
-
-    echo $content; ?>
-
+    <?php echo $content; ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

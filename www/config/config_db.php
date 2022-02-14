@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'dns' => 'mysql:host=localhost; dbname=  ;  charset=utf8',
-    'user' => 'root',
-    'pass' => ','
+    'dns' => 'mysql:host=db; dbname=zdfw; charset=utf8',
+    'user' => 'user',
+    'pass' => 'pass',
 ];

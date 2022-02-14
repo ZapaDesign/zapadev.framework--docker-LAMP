@@ -2,6 +2,8 @@
 
 namespace app\controllers;
 
+use app\models\Main;
+
 class MainController extends AppController
 {
 
@@ -9,12 +11,13 @@ class MainController extends AppController
 
     public function indexAction()
     {
-        //        $this->layout = false;
-        //        $this->layout = 'main';
-        //        $this->view = 'test';
-        $name = 'zapaDEV';
+        $model = new Main;
+        $posts = $model->findAll("SELECT * FROM posts");
+
+        $title = 'PAGE TITLE';
         $this->set([
-            'name' => $name,
+            'title' => $title,
+            'posts' => $posts,
         ]);
     }
 
