@@ -9,8 +9,9 @@
 <div class="container">
 
     <code><?php echo __FILE__; ?></code>
+    <br>
 
-    <?php echo '<br>' . $title ?>
+    <?php echo '<h1 class="text-center">' . $title . '</h1>' ?>
 
     <?php foreach ($posts as $post): ?>
         <div class="card mb-3">

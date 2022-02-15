@@ -17,7 +17,9 @@ class Db
         require LIBS . '/rb-mysql.php';
         R::setup($db['dns'], $db['user'], $db['pass']);
         R::freeze(true);
-        R::fancyDebug(TRUE);
+
+        // Debug mod
+//        R::fancyDebug(TRUE);
 
 
 //        $options = [
